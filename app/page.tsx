@@ -10,10 +10,10 @@ export default function BookLandingPage() {
 
         <div className="relative mx-auto grid min-h-screen max-w-7xl grid-cols-1 items-center gap-12 px-6 py-20 lg:grid-cols-2">
 
-          {/* LEFT SIDE */}
+          {/* LEFT */}
           <div>
             <p className="mb-5 text-sm font-semibold uppercase tracking-[0.35em] text-blue-400">
-              Coming Soon
+              Now Available
             </p>
 
             <h1 className="text-5xl font-semibold tracking-tight md:text-7xl">
@@ -29,19 +29,23 @@ export default function BookLandingPage() {
               told through thirty-five years of Jiu-Jitsu and thirty years inside global corporations.
             </p>
 
-            <div className="mt-10 flex gap-4">
+            <div className="mt-10 flex flex-col gap-4 sm:flex-row">
+              
+              {/* AMAZON CTA */}
               <a
-                href="#early-access"
-                className="rounded-full bg-blue-500 px-6 py-3 font-semibold text-white hover:bg-blue-400"
+                href="https://www.amazon.com/dp/B0GYJQSQ25"
+                target="_blank"
+                className="rounded-full bg-blue-500 px-7 py-4 text-center font-bold text-white hover:bg-blue-400"
               >
-                Join Early Access
+                Buy on Amazon
               </a>
 
+              {/* SECONDARY */}
               <a
-                href="#about"
-                className="rounded-full bg-white px-6 py-3 font-semibold text-black hover:bg-white/80"
+                href="#early-access"
+                className="rounded-full bg-white px-7 py-4 text-center font-bold text-black hover:bg-white/80"
               >
-                Learn More
+                Get Updates
               </a>
             </div>
 
@@ -50,12 +54,11 @@ export default function BookLandingPage() {
             </p>
           </div>
 
-          {/* RIGHT SIDE - BOOK (FRONT + BACK STACK) */}
+          {/* RIGHT - BOOK */}
           <div className="relative mx-auto w-full max-w-md">
-
             <div className="relative h-[600px]">
 
-              {/* BACK COVER */}
+              {/* BACK */}
               <div className="absolute left-6 top-6 z-0 opacity-70">
                 <Image
                   src="/TheGALBack.png"
@@ -66,7 +69,7 @@ export default function BookLandingPage() {
                 />
               </div>
 
-              {/* FRONT COVER */}
+              {/* FRONT */}
               <div className="absolute z-10">
                 <Image
                   src="/TheGAL.png"
@@ -78,46 +81,42 @@ export default function BookLandingPage() {
               </div>
 
             </div>
-
           </div>
+
         </div>
       </section>
 
       {/* ABOUT */}
-      <section id="about" className="border-t border-white/10 px-6 py-24">
-        <div className="mx-auto max-w-4xl text-center">
-          <h2 className="text-4xl font-semibold">
-            This is not leadership from the summit.
-          </h2>
+      <section className="border-t border-white/10 px-6 py-24 text-center">
+        <h2 className="text-4xl font-semibold">
+          This is not leadership from the summit.
+        </h2>
 
-          <p className="mt-6 text-white/60">
-            This is leadership from the climb. From pressure. From failure. 
-            From the moments where ego breaks and truth remains.
-          </p>
-        </div>
+        <p className="mx-auto mt-6 max-w-2xl text-white/60">
+          This is leadership from the climb. From pressure. From failure. 
+          From the moments where ego breaks and truth remains.
+        </p>
       </section>
 
-      {/* EMAIL */}
-      <section id="early-access" className="px-6 pb-24">
-        <div className="mx-auto max-w-2xl text-center">
-          <h2 className="text-3xl font-semibold">
-            Be first to know when it launches
-          </h2>
+      {/* EMAIL (SECONDARY FUNNEL) */}
+      <section id="early-access" className="px-6 pb-24 text-center">
+        <h2 className="text-3xl font-semibold">
+          Stay connected
+        </h2>
 
-          <form className="mt-6 flex flex-col gap-3 sm:flex-row">
-            <input
-              type="email"
-              placeholder="Enter your email"
-              className="flex-1 rounded-full bg-black border border-white/10 px-5 py-3 text-white"
-            />
+        <form className="mx-auto mt-6 flex max-w-xl flex-col gap-3 sm:flex-row">
+          <input
+            type="email"
+            placeholder="Enter your email"
+            className="flex-1 rounded-full bg-black border border-white/10 px-5 py-3 text-white"
+          />
 
-            <button
-              className="rounded-full bg-blue-500 px-6 py-3 font-semibold hover:bg-blue-400"
-            >
-              Join
-            </button>
-          </form>
-        </div>
+          <button
+            className="rounded-full bg-blue-500 px-6 py-3 font-semibold hover:bg-blue-400"
+          >
+            Join
+          </button>
+        </form>
       </section>
 
     </main>
