@@ -171,11 +171,6 @@ export default function BookLandingPage() {
           <h2 className="mt-5 text-center text-4xl font-semibold">
             Leadership lessons that land differently.
           </h2>
-
-          <p className="mx-auto mt-5 max-w-2xl text-center text-white/60">
-            Placeholder testimonials for layout only. Replace these with real reader quotes before launch.
-          </p>
-
           <div className="mt-12 grid grid-cols-1 gap-6 md:grid-cols-3">
             {[
               {
