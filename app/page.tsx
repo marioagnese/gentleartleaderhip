@@ -180,7 +180,7 @@ export default function BookLandingPage() {
             {[
               {
                 quote:
-                  "This book made leadership feel physical. You understand pressure, ego, and resilience in a way no corporate framework can teach.",
+                  "Um livro sobre coragem, determinação e conexão. Coragem de se apresentar sem filtros. Determinação de sair da posição de desvantagem e redesenhar a própria trajetória. E a capacidade de enxergar, no jiu-jitsu, princípios aplicáveis ao ambiente corporativo",
                 name: "Jose Maria",
                 role: "Executive Leader",
               },
