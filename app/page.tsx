@@ -102,7 +102,7 @@ export default function BookLandingPage() {
 
           <div className="mt-12 grid grid-cols-1 gap-5 md:grid-cols-4">
             {[
-              ["/author-training-1.jpg", "Training and teaching on the mat"],
+              ["/author-training-4.jpg", "Training and teaching on the mat"],
               ["/author-training-2.jpg", "With Professor Rilion Gracie"],
               ["/academy-lineup.jpg", "The academy community"],
               ["/author-training-3.jpg", "Teaching the next generation"],
@@ -151,7 +151,7 @@ export default function BookLandingPage() {
 
           <div className="rounded-3xl border border-white/10 bg-white/[0.04] p-6">
             <Image
-              src="/author-training-1.jpg"
+              src="/author-training-4.jpg"
               alt="Mario Agnese training Jiu-Jitsu"
               width={700}
               height={700}
