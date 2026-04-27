@@ -181,19 +181,19 @@ export default function BookLandingPage() {
               {
                 quote:
                   "This book made leadership feel physical. You understand pressure, ego, and resilience in a way no corporate framework can teach.",
-                name: "Early Reader",
+                name: "Jose Maria",
                 role: "Executive Leader",
               },
               {
                 quote:
                   "The connection between Jiu-Jitsu and business is powerful because it is not forced. The stories feel earned, honest, and useful.",
-                name: "Early Reader",
+                name: "Rodrigo Oliveira",
                 role: "Entrepreneur",
               },
               {
                 quote:
                   "Tap early. Position before submission. I kept thinking about my own career decisions while reading it.",
-                name: "Early Reader",
+                name: "Mario Trindade",
                 role: "Corporate Manager",
               },
             ].map((item) => (
