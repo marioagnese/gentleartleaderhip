@@ -175,7 +175,7 @@ export default function BookLandingPage() {
             {[
               {
                 quote:
-                  "A book about courage, determination, and connection. The courage to show up without filters. The determination to leave a position of disadvantage and redesign your own path. And the ability to recognize, in jiu-jitsu, principles that can be applied to the corporate world.",
+                  "A book about courage, determination, and connection. The courage to show up without filters. The determination to leave a position of disadvantage and redesign your own path. And the ability to recognize jiu-jitsu principles that can be applied to the corporate world.",
                 name: "Jose Maria",
                 role: "Writer and Executive Leader",
               },
