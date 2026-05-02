@@ -44,7 +44,7 @@ export default function BookLandingPage() {
                 target="_blank"
                 className="rounded-full bg-white px-7 py-4 text-center font-bold text-black hover:bg-white/80"
               >
-                Comprar em Português
+                Comprar em Português - Brasil
               </a>
             </div>
 
@@ -229,8 +229,8 @@ export default function BookLandingPage() {
             target="_blank"
             className="rounded-full bg-white px-8 py-4 font-bold text-black hover:bg-white/80"
           >
-            Comprar Edição PT
-          </a>
+            Buy in Portuguese 
+            </a>
         </div>
       </section>
     </main>
