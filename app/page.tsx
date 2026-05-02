@@ -225,7 +225,7 @@ export default function BookLandingPage() {
           </a>
 
           <a
-            href={amazonPortuguese}
+            href="https://www.amazon.com/dp/B0GYJMN8Y4"
             target="_blank"
             className="rounded-full bg-white px-8 py-4 font-bold text-black hover:bg-white/80"
           >
