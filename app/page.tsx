@@ -1,7 +1,8 @@
 import Image from "next/image";
 
 const amazonEnglish = "https://www.amazon.com/dp/B0GYJQSQ25";
-const amazonPortuguese = "https://www.amazon.com/dp/B0GYJMN8Y4";
+const portugueseBrazilPaperback = "https://loja.uiclap.com/titulo/ua168586/?_gl=1*o7ctcg*_gcl_au*MTIyOTYyMjY1NC4xNzc3NzI2ODg4*_ga*NTM0MTEyODM0LjE3Nzc3MjY4ODg.*_ga_DYW89XSZSM*czE3Nzc3MzQ2MjEkbzMkZzEkdDE3Nzc3MzU3NjgkajUyJGwwJGgw*_ga_Z61G943P94*czE3Nzc3MzQ2MjEkbzMkZzEkdDE3Nzc3MzU3NjgkajUzJGwwJGgw";
+const portugueseAmazon = "https://www.amazon.com/dp/B0GYJMN8Y4";
 const linkedin = "https://www.linkedin.com/in/marioagnese/";
 
 export default function BookLandingPage() {
@@ -40,7 +41,7 @@ export default function BookLandingPage() {
               </a>
 
               <a
-                href={amazonPortuguese}
+                href={portugueseBrazilPaperback}
                 target="_blank"
                 className="rounded-full bg-white px-7 py-4 text-center font-bold text-black hover:bg-white/80"
               >
@@ -225,7 +226,7 @@ export default function BookLandingPage() {
           </a>
 
           <a
-            href="https://www.amazon.com/dp/B0GYJMN8Y4"
+            href={portugueseAmazon}
             target="_blank"
             className="rounded-full bg-white px-8 py-4 font-bold text-black hover:bg-white/80"
           >
