@@ -1,7 +1,7 @@
 import Image from "next/image";
 
 const amazonEnglish = "https://www.amazon.com/dp/B0GYJQSQ25";
-const amazonPortuguese = "https://www.amazon.com/ARTE-SUAVE-LIDERAR-Lideran%C3%A7a-Portuguese/dp/B0GYJMN8Y4
+const amazonPortuguese = "https://www.amazon.com/dp/B0GYJMN8Y4";
 const linkedin = "https://www.linkedin.com/in/marioagnese/";
 
 export default function BookLandingPage() {
