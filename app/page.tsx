@@ -48,6 +48,11 @@ export default function BookLandingPage() {
               </a>
             </div>
 
+<p className="mt-4 text-xs text-white/40">
+  Portuguese edition also available on Amazon outside Brazil
+</p>
+
+
             <p className="mt-8 italic text-white/40">
               “The mat never lies. Neither does the boardroom.”
             </p>
