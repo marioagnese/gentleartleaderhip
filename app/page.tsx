@@ -1,7 +1,7 @@
 import Image from "next/image";
 
 const amazonEnglish = "https://www.amazon.com/dp/B0GYJQSQ25";
-const amazonPortuguese = "https://www.amazon.com/dp/B0GYJMN8Y4";
+const amazonPortuguese = "https://loja.uiclap.com/titulo/ua168586/?_gl=1*1ws6ltr*_gcl_au*MTIyOTYyMjY1NC4xNzc3NzI2ODg4*_ga*NTM0MTEyODM0LjE3Nzc3MjY4ODg.*_ga_DYW89XSZSM*czE3Nzc3MzQ2MjEkbzMkZzEkdDE3Nzc3MzQ2MjckajU0JGwwJGgw*_ga_Z61G943P94*czE3Nzc3MzQ2MjEkbzMkZzEkdDE3Nzc3MzQ2MjckajU0JGwwJGgw";
 const linkedin = "https://www.linkedin.com/in/marioagnese/";
 
 export default function BookLandingPage() {
